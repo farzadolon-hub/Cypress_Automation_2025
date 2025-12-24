@@ -1,0 +1,20 @@
+{
+  "name": "cypress_automation_2025",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "braveTest": "npx cypress run --headed --browser chrome --spec 'cypress/e2e/Day1_121525/brave_search.cy.js'",
+    "braveTestHeadless": "npx cypress run --browser chrome --spec 'cypress/e2e/Day3/brave_search.cy.js'"
+
+  },
+  "devDependencies": {
+    "cypress": "^15.7.1",
+    "cypress-mochawesome-reporter": "^4.0.2",
+    "cypress-xpath": "^2.0.1",
+    "mochawesome": "^7.1.4"
+  }
+}
